@@ -1,6 +1,6 @@
 # Android LAN Scanner App
 
-A simple **LAN Scanner** Android app built in Java that scans your home network for devices and identifies open ports. Supports **multi-threaded scanning** and displays IPs, hostnames, and open ports in a clean UI.
+A simple **LAN Scanner** Android app built in Java that scans your home network for devices and identifies open ports. Supports **multi-threaded scanning** and displays IPs, hostnames, and open ports in UI.
 
 ---
 
@@ -11,7 +11,7 @@ A simple **LAN Scanner** Android app built in Java that scans your home network 
 - Resolves hostnames for detected devices.
 - Multi-threaded scanning for faster results.
 - Safe handling of null data and UI updates.
-- Compatible with Android 6.0+.
+- Compatible with Android 8.0+.
 
 ---
 
