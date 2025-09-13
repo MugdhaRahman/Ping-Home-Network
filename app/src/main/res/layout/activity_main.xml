@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <Button
+        android:layout_marginTop="40dp"
         android:id="@+id/btnScan"
         android:text="Scan Network"
         android:layout_width="match_parent"
@@ -15,5 +16,5 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:paddingTop="10dp"/>
+        android:paddingTop="20dp"/>
 </LinearLayout>

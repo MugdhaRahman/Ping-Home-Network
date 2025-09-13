@@ -1,5 +1,6 @@
 package com.mrapps.pinghomenetwork.adapter;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -59,4 +60,5 @@ public class DeviceAdapter extends RecyclerView.Adapter<DeviceAdapter.ViewHolder
             txtPorts = itemView.findViewById(R.id.txtPorts);
         }
     }
+
 }
