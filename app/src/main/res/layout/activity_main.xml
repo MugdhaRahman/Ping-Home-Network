@@ -5,6 +5,9 @@
     android:layout_height="match_parent">
 
     <Button
+        android:padding="4dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
         android:layout_marginTop="40dp"
         android:id="@+id/btnScan"
         android:text="Scan Network"

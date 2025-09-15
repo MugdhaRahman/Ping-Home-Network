@@ -33,7 +33,7 @@ public class DeviceAdapter extends RecyclerView.Adapter<DeviceAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         DeviceInfo device = deviceList.get(position);
 
-        holder.txtIp.setText("IP: " + device.getIp());
+        holder.txtIp.setText(device.getIp());
         holder.txtHost.setText("Host: " + device.getHostname());
 
         List<Integer> ports = device.getOpenPorts();
